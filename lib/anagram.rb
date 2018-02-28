@@ -8,12 +8,11 @@ class Anagram
   
   def match(list) 
    
-     @word.chars.sort 
-     list.map {|w| w.chars.sort}
+    
    
     #iterate through the list to see if there is a match with @word 
     
-      ordered_list.select{|word| word == @word.chars.sort}
+   list.select{|word| word.chars.sort == @word.chars.sort}
    
   end
 end 
