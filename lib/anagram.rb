@@ -15,12 +15,12 @@ class Anagram
     ordered_list = list.each {|w| w.chars.sort}
    
     
-    #iterate through the list to see if there is a match with @word use .select 
+    #iterate through the list to see if there is a match with @word 
     
     if ordered_list.select{|word| word == @word.chars.sort)
       ordered_list.select{|word| word == @word.chars.sort)
     else
       []
     end
-  
+  end
 end 
