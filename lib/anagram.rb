@@ -17,8 +17,8 @@ class Anagram
     
     #iterate through the list to see if there is a match with @word 
     
-    if ordered_list.select{|word| word == @word.chars.sort)
-      ordered_list.select{|word| word == @word.chars.sort)
+    if ordered_list.select{|word| word == @word.chars.sort)}
+      ordered_list.select{|word| word == @word.chars.sort)}
     else
       []
     end
