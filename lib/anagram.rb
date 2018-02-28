@@ -13,7 +13,7 @@ class Anagram
      
     #alph order each word in list
     ordered_list = list.each {|w| w.chars.sort}
-    end 
+   
     
     #iterate through the list to see if there is a match with @word use .select 
     
